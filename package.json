@@ -1,0 +1,36 @@
+{
+  "name": "memshell",
+  "version": "0.4.0",
+  "description": "Persistent memory for AI agents. Like localStorage but for LLMs.",
+  "main": "src/index.js",
+  "bin": {
+    "memshell": "bin/memshell.js"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test.js"
+  },
+  "keywords": [
+    "ai",
+    "agents",
+    "memory",
+    "llm",
+    "semantic-search",
+    "tfidf",
+    "chatgpt",
+    "langchain",
+    "vector",
+    "recall"
+  ],
+  "author": "justedv",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "sql.js": "^1.11.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/justedv/mem.sh"
+  },
+  "homepage": "https://justedv.github.io/mem.sh"
+}
